@@ -1,7 +1,7 @@
 import 'package:either_dart/either.dart';
 import 'package:final_task/src/core/error/error.dart';
-import 'package:final_task/src/core/widgets/bottom_bar.dart';
-import 'package:final_task/src/core/widgets/custome_bar.dart';
+import 'package:final_task/src/features/comment/presentation/widgets/bottom_bar.dart';
+import 'package:final_task/src/features/comment/presentation/widgets/custome_bar.dart';
 import 'package:final_task/src/features/comment/data/implements/implements.dart';
 import 'package:final_task/src/features/comment/data/models/models.dart';
 import 'package:final_task/src/features/comment/presentation/cubit/comment_cubit.dart';
