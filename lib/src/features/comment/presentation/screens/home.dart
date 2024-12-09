@@ -22,7 +22,8 @@ class CommentPage extends StatelessWidget {
 
   Widget coms() {
     final CommentRepostoryImp cri = CommentRepostoryImp();
-    const int postId = 242;
+    
+    const int postId = 242;//! THE POST ID
 
     return FutureBuilder<Either<Failure, List<CommentModel>>>(
       future: cri.getAllPostComments(postId),
